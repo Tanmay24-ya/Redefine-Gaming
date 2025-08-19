@@ -77,15 +77,15 @@ const Hero = () => {
             REDEFINE <br /> G<b>A</b>MING
           </h1>
 
-          <p className="mb-5 mt-3 max-w-md font-robert-regular text-white">
-            Enter the Metagame Layer <br /> Unleash the Play Economy
+          <p className="mb-5 mt-3 max-w-md font-robert-regular text-white text-xl sm:text-2xl lg:text-3xl">
+            Dive into the Metagame Layer, transcend the ordinary, break the boundaries of play, and unlock the true potential of the Play Economy.         
           </p>
 
-          <Button
+          <Button 
             id="watch-trailer"
             title="Watch trailer"
             leftIcon={<TiLocationArrow />}
-            containerClass="bg-yellow-300 flex-center gap-1"
+            containerClass="bg-yellow-300 flex-center gap-1 text-xl sm:text-2xl lg:text-3xl"
           />
         </div>
       </div>
